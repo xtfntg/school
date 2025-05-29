@@ -1231,7 +1231,7 @@ function App() {
         {/* <h1 style={{ position: 'absolute', top: '20px', left: '20px', zIndex: 1000, background: 'rgba(255, 255, 255, 0.9)', padding: '10px', borderRadius: '5px' }}>北京中学梯队及位置信息</h1> */}
 
         {/* 添加坐标显示组件 */}
-        {clickedCoordinates && (
+      {/*   {clickedCoordinates && (
           <div style={{
             position: 'absolute',
             top: '80px',
@@ -1249,7 +1249,7 @@ function App() {
               点击地图任意位置可获取坐标
             </div>
           </div>
-        )}
+        )} */}
 
         <div ref={mapContainerRef} style={{ width: '100%', height: '100%' }}>
           {!mapLoaded && <div style={{ padding: '20px', textAlign: 'center' }}>正在加载地图...</div>}
