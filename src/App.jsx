@@ -1257,7 +1257,7 @@ function App() {
 
         <div style={{ position: 'absolute', bottom: '20px', left: '20px', right: '20px', padding: '15px', backgroundColor: 'rgba(245, 245, 245, 0.9)', borderRadius: '8px', zIndex: 1000 }}>
           <h3 style={{ marginBottom: '10px' }}>梯队颜色说明：</h3>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))', gap: '10px' }}>
+         {/*  <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))', gap: '10px' }}>
             {Object.entries(TIER_COLORS).map(([tier, color]) => (
               <div key={tier} style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                 <div style={{ width: '20px', height: '20px', backgroundColor: color, borderRadius: '50%' }}></div>
@@ -1270,7 +1270,7 @@ function App() {
                             color === '#8B00FF' ? '紫色' : '灰色'}</span>
               </div>
             ))}
-          </div>
+          </div> */}
         </div>
       </div>
     </ErrorBoundary>
