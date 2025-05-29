@@ -75,7 +75,7 @@ const generateInfoWindowContent = (school) => {
         <p style="margin: 5px 0;"><strong>描述：</strong>${school.description}</p>
         <p style="margin: 5px 0;"><strong>统招线：</strong>${school.score}</p>
         <p style="margin: 5px 0;"><strong>区排名：</strong>${school.districtRank}</p>
-        <p style="margin: 5px 0;"><strong>2024年招生：</strong>${school.enrollment2024}人</p>
+        <p style="margin: 5px 0;"><strong>2025年招生：</strong>${school.enrollment2025}人</p>
         <p style="margin: 5px 0;"><strong>报名人数：</strong>${school.applicants}人</p>
         <p style="margin: 5px 0;"><strong>中签率：</strong>${school.acceptanceRate}</p>
         <p style="margin: 5px 0;"><strong>特色优势：</strong>${school.features.advantages}</p>
