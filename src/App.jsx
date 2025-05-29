@@ -1228,7 +1228,7 @@ function App() {
   return (
     <ErrorBoundary>
       <div translate="no" style={{ width: '100vw', height: '100vh', position: 'relative' }}>
-        <h1 style={{ position: 'absolute', top: '20px', left: '20px', zIndex: 1000, background: 'rgba(255, 255, 255, 0.9)', padding: '10px', borderRadius: '5px' }}>北京中学梯队及位置信息</h1>
+        {/* <h1 style={{ position: 'absolute', top: '20px', left: '20px', zIndex: 1000, background: 'rgba(255, 255, 255, 0.9)', padding: '10px', borderRadius: '5px' }}>北京中学梯队及位置信息</h1> */}
 
         {/* 添加坐标显示组件 */}
         {clickedCoordinates && (
