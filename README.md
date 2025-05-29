@@ -1,12 +1,50 @@
-# React + Vite
+# 北京中学梯队及位置信息地图
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+这是一个使用 React 和高德地图 API 开发的交互式地图应用，展示北京市各中学的梯队分布和位置信息。
 
-Currently, two official plugins are available:
+## 功能特点
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 在地图上显示各中学位置
+- 使用不同颜色标识不同梯队
+- 显示学校详细信息（包括统招线、区排名、招生人数等）
+- 支持地图缩放和拖动
+- 点击标记可查看学校详细信息
 
-## Expanding the ESLint configuration
+## 技术栈
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- 高德地图 JavaScript API
+- HTML5 Canvas
+
+## 安装和运行
+
+1. 克隆仓库
+
+```bash
+git clone https://github.com/xtfntg/school.git
+cd school
+```
+
+2. 安装依赖
+
+```bash
+npm install
+```
+
+3. 运行开发服务器
+
+```bash
+npm start
+```
+
+## 使用说明
+
+- 地图上的标记颜色代表不同的学校梯队
+- 点击标记可以查看学校的详细信息
+- 使用鼠标滚轮可以缩放地图
+- 拖动地图可以改变视角
+
+## 注意事项
+
+- 需要高德地图 API Key 才能正常运行
+- 建议使用现代浏览器访问以获得最佳体验
