@@ -43,7 +43,7 @@ const createCustomMarker = (tier, rate) => {
 
   // 绘制黑色文字
   ctx.fillStyle = '#000000';
-   ctx.font = 'bold 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif';
+  ctx.font = 'bold 12px "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", "WenQuanYi Micro Hei", sans-serif';
   ctx.textAlign = 'center';
   ctx.textBaseline = 'middle';
 
@@ -66,8 +66,8 @@ const createCustomMarker = (tier, rate) => {
 const generateInfoWindowContent = (school) => {
   const tierColor = TIER_COLORS[school.tier] || '#808080';
   return `
-     <div style="padding: 10px; max-width: 300px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
-      <h3 style="margin: 0 0 10px 0; color: ${tierColor}; border-bottom: 2px solid ${tierColor}; padding-bottom: 5px;">
+     <div style="padding: 10px; max-width: 300px; font-family: "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", "WenQuanYi Micro Hei", sans-serif;">
+      <h3 style="margin: 0 0 10px 0; color: ${tierColor}; border-bottom: 2px solid ${tierColor}; padding-bottom: 5px; font-size: 16px;">
         ${school.name}
       </h3>
       <div style="font-size: 14px; line-height: 1.5;">
